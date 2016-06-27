@@ -1,103 +1,135 @@
 {
   "name": "Octoblu Official Connectors",
   "documentation": "https://meshblu-connectors.octoblu.com",
-  "version": "1.0.0",
-  "connectors": [
+  "version": "2.0.0",
+  "items": [
     {
       "name": "Lightblue Bean",
       "type": "device:bean",
       "tags": ["Bluetooth", "Maker"],
-      "connector": "meshblu-connector-bean"
+      "connector": "meshblu-connector-bean",
+      "createUri": "https://connector-factory.octoblu.com/connectors/create/meshblu-connector-bean",
+      "configureUri": "https://connector-factory.octoblu.com/things/configure/:uuid"
     },
     {
       "name": "Phillips Hue",
       "type": "device:hue",
       "tags": ["Home Automation"],
-      "connector": "meshblu-connector-hue"
+      "connector": "meshblu-connector-hue",
+      "createUri": "https://connector-factory.octoblu.com/connectors/create/meshblu-connector-hue",
+      "configureUri": "https://connector-factory.octoblu.com/things/configure/:uuid"
     },
     {
       "name": "Chromecast",
       "type": "device:chromecast",
       "tags": ["Home Automation"],
-      "connector": "meshblu-connector-chromecast"
+      "connector": "meshblu-connector-chromecast",
+      "createUri": "https://connector-factory.octoblu.com/connectors/create/meshblu-connector-chromecast",
+      "configureUri": "https://connector-factory.octoblu.com/things/configure/:uuid"
     },
     {
       "name": "Wemo Switch",
       "type": "device:wemo",
       "tags": ["Home Automation"],
-      "connector": "meshblu-connector-wemo"
+      "connector": "meshblu-connector-wemo",
+      "createUri": "https://connector-factory.octoblu.com/connectors/create/meshblu-connector-wemo",
+      "configureUri": "https://connector-factory.octoblu.com/things/configure/:uuid"
     },
     {
       "name": "Blink1",
       "type": "device:blink1",
       "tags": ["Maker", "Utility"],
-      "connector": "meshblu-connector-blink1"
+      "connector": "meshblu-connector-blink1",
+      "createUri": "https://connector-factory.octoblu.com/connectors/create/meshblu-connector-blink1",
+      "configureUri": "https://connector-factory.octoblu.com/things/configure/:uuid"
     },
     {
       "name": "Shell",
       "type": "device:shell",
       "tags": ["Utility"],
-      "connector": "meshblu-connector-shell"
+      "connector": "meshblu-connector-shell",
+      "createUri": "https://connector-factory.octoblu.com/connectors/create/meshblu-connector-shell",
+      "configureUri": "https://connector-factory.octoblu.com/things/configure/:uuid"
     },
     {
       "name": "Beacon Receiver",
       "type": "device:beacon-receiver",
       "tags": ["Bluetooth", "Maker"],
-      "connector": "meshblu-connector-beacon-receiver"
+      "connector": "meshblu-connector-beacon-receiver",
+      "createUri": "https://connector-factory.octoblu.com/connectors/create/meshblu-connector-beacon-receiver",
+      "configureUri": "https://connector-factory.octoblu.com/things/configure/:uuid"
     },
     {
       "name": "Beacon Transmitter",
       "type": "device:beacon-transmitter",
       "tags": ["Bluetooth", "Maker"],
-      "connector": "meshblu-connector-beacon-transmitter"
+      "connector": "meshblu-connector-beacon-transmitter",
+      "createUri": "https://connector-factory.octoblu.com/connectors/create/meshblu-connector-beacon-transmitter",
+      "configureUri": "https://connector-factory.octoblu.com/things/configure/:uuid"
     },
     {
       "name": "Lifx",
       "type": "device:lifx",
       "tags": ["Home Automation"],
-      "connector": "meshblu-connector-lifx"
+      "connector": "meshblu-connector-lifx",
+      "createUri": "https://connector-factory.octoblu.com/connectors/create/meshblu-connector-lifx",
+      "configureUri": "https://connector-factory.octoblu.com/things/configure/:uuid"
     },
     {
       "name": "HTTP Connector",
       "type": "device:http-connector",
       "tags": ["Utility"],
-      "connector": "meshblu-connector-http"
+      "connector": "meshblu-connector-http",
+      "createUri": "https://connector-factory.octoblu.com/connectors/create/meshblu-connector-http",
+      "configureUri": "https://connector-factory.octoblu.com/things/configure/:uuid"
     },
     {
       "name": "Myo",
       "type": "device:myo",
       "tags": ["Maker"],
-      "connector": "meshblu-connector-myo"
+      "connector": "meshblu-connector-myo",
+      "createUri": "https://connector-factory.octoblu.com/connectors/create/meshblu-connector-myo",
+      "configureUri": "https://connector-factory.octoblu.com/things/configure/:uuid"
     },
     {
       "name": "Neurosky Mindwave",
       "type": "device:mindwave",
       "tags": ["Maker"],
-      "connector": "meshblu-connector-mindwave"
+      "connector": "meshblu-connector-mindwave",
+      "createUri": "https://connector-factory.octoblu.com/connectors/create/meshblu-connector-mindwave",
+      "configureUri": "https://connector-factory.octoblu.com/things/configure/:uuid"
     },
     {
       "name": "Sonos",
       "type": "device:sonos",
       "tags": ["Music"],
-      "connector": "meshblu-connector-sonos"
+      "connector": "meshblu-connector-sonos",
+      "createUri": "https://connector-factory.octoblu.com/connectors/create/meshblu-connector-sonos",
+      "configureUri": "https://connector-factory.octoblu.com/things/configure/:uuid"
     },
     {
       "name": "Citrix Receiver",
       "type": "device:citrix-receiver",
       "tags": ["Citrix", "Automation"],
-      "connector": "meshblu-connector-citrix-receiver"
+      "connector": "meshblu-connector-citrix-receiver",
+      "createUri": "https://connector-factory.octoblu.com/connectors/create/meshblu-connector-citrix-receiver",
+      "configureUri": "https://connector-factory.octoblu.com/things/configure/:uuid"
     },
     {
       "name": "BLE Heartrate",
       "type": "device:ble-heartrate",
       "tags": ["Bluetooth", "Health"],
-      "connector": "meshblu-connector-ble-heartrate"
+      "connector": "meshblu-connector-ble-heartrate",
+      "createUri": "https://connector-factory.octoblu.com/connectors/create/meshblu-connector-ble-heartrate",
+      "configureUri": "https://connector-factory.octoblu.com/things/configure/:uuid"
     },
     {
       "name": "Say Hello (For Testing)",
       "type": "device:say-hello",
       "tags": [],
-      "connector": "meshblu-connector-say-hello"
+      "connector": "meshblu-connector-say-hello",
+      "createUri": "https://connector-factory.octoblu.com/connectors/create/meshblu-connector-say-hello",
+      "configureUri": "https://connector-factory.octoblu.com/things/configure/:uuid"
     }
   ]
 }
