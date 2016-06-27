@@ -1,0 +1,103 @@
+{
+  "name": "Octoblu Official Connectors",
+  "documentation": "https://meshblu-connectors.octoblu.com",
+  "version": "1.0.0",
+  "connectors": [
+    {
+      "name": "Lightblue Bean",
+      "type": "device:bean",
+      "tags": ["Bluetooth", "Maker"],
+      "connector": "meshblu-connector-bean"
+    },
+    {
+      "name": "Phillips Hue",
+      "type": "device:hue",
+      "tags": ["Home Automation"],
+      "connector": "meshblu-connector-hue"
+    },
+    {
+      "name": "Chromecast",
+      "type": "device:chromecast",
+      "tags": ["Home Automation"],
+      "connector": "meshblu-connector-chromecast"
+    },
+    {
+      "name": "Wemo Switch",
+      "type": "device:wemo",
+      "tags": ["Home Automation"],
+      "connector": "meshblu-connector-wemo"
+    },
+    {
+      "name": "Blink1",
+      "type": "device:blink1",
+      "tags": ["Maker", "Utility"],
+      "connector": "meshblu-connector-blink1"
+    },
+    {
+      "name": "Shell",
+      "type": "device:shell",
+      "tags": ["Utility"],
+      "connector": "meshblu-connector-shell"
+    },
+    {
+      "name": "Beacon Receiver",
+      "type": "device:beacon-receiver",
+      "tags": ["Bluetooth", "Maker"],
+      "connector": "meshblu-connector-beacon-receiver"
+    },
+    {
+      "name": "Beacon Transmitter",
+      "type": "device:beacon-transmitter",
+      "tags": ["Bluetooth", "Maker"],
+      "connector": "meshblu-connector-beacon-transmitter"
+    },
+    {
+      "name": "Lifx",
+      "type": "device:lifx",
+      "tags": ["Home Automation"],
+      "connector": "meshblu-connector-lifx"
+    },
+    {
+      "name": "HTTP Connector",
+      "type": "device:http-connector",
+      "tags": ["Utility"],
+      "connector": "meshblu-connector-http"
+    },
+    {
+      "name": "Myo",
+      "type": "device:myo",
+      "tags": ["Maker"],
+      "connector": "meshblu-connector-myo"
+    },
+    {
+      "name": "Neurosky Mindwave",
+      "type": "device:mindwave",
+      "tags": ["Maker"],
+      "connector": "meshblu-connector-mindwave"
+    },
+    {
+      "name": "Sonos",
+      "type": "device:sonos",
+      "tags": ["Music"],
+      "connector": "meshblu-connector-sonos"
+    },
+    {
+      "name": "Citrix Receiver",
+      "type": "device:citrix-receiver",
+      "tags": ["Citrix", "Automation"],
+      "connector": "meshblu-connector-citrix-receiver"
+    },
+    {
+      "name": "BLE Heartrate",
+      "type": "device:ble-heartrate",
+      "tags": ["Bluetooth", "Health"],
+      "connector": "meshblu-connector-ble-heartrate"
+    },
+    {
+      "name": "Say Hello (For Testing)",
+      "type": "device:say-hello",
+      "tags": [],
+      "connector": "meshblu-connector-say-hello"
+    }
+  ]
+}
