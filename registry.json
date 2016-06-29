@@ -110,7 +110,7 @@
     {
       "name": "Citrix Receiver",
       "type": "device:citrix-receiver",
-      "tags": ["Citrix", "Automation"],
+      "tags": ["Citrix"],
       "githubSlug": "octoblu/meshblu-connector-citrix-receiver",
       "createUri": "https://connector-factory.octoblu.com/connectors/create/octoblu/meshblu-connector-citrix-receiver",
       "configureUri": "https://connector-factory.octoblu.com/things/configure/:uuid"
@@ -118,7 +118,7 @@
     {
       "name": "BLE Heartrate",
       "type": "device:ble-heartrate",
-      "tags": ["Bluetooth", "Health"],
+      "tags": ["Bluetooth"],
       "githubSlug": "octoblu/meshblu-connector-ble-heartrate",
       "createUri": "https://connector-factory.octoblu.com/connectors/create/octoblu/meshblu-connector-ble-heartrate",
       "configureUri": "https://connector-factory.octoblu.com/things/configure/:uuid"
