@@ -1,7 +1,7 @@
 {
   "name": "Octoblu Official Connectors",
   "documentation": "https://meshblu-connectors.readme.io",
-  "version": "4.0.0",
+  "version": "4.0.1",
   "items": [
     {
       "_id": "octoblu-meshblu-connector-chromecast",
@@ -188,7 +188,7 @@
       "name": "Say Hello (For Testing)",
       "description": "An example of a Connector. It will respond to grettings.",
       "type": "device:say-hello",
-      "tags": [],
+      "tags": ["Example"],
       "githubSlug": "octoblu/meshblu-connector-say-hello",
       "createUri": "https://connector-factory.octoblu.com/connectors/create/octoblu/meshblu-connector-say-hello",
       "configureUri": "https://connector-factory.octoblu.com/things/configure/:uuid"
