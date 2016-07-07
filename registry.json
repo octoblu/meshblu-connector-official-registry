@@ -1,7 +1,7 @@
 {
   "name": "Octoblu Official Connectors",
   "documentation": "https://meshblu-connectors.readme.io",
-  "version": "4.0.1",
+  "version": "5.0.0",
   "items": [
     {
       "_id": "octoblu-meshblu-connector-chromecast",
@@ -11,7 +11,7 @@
       "tags": ["Home Automation"],
       "githubSlug": "octoblu/meshblu-connector-chromecast",
       "createUri": "https://connector-factory.octoblu.com/connectors/create/octoblu/meshblu-connector-chromecast",
-      "configureUri": "https://connector-factory.octoblu.com/things/configure/:uuid"
+      "configureUri": "https://connector-factory.octoblu.com/connectors/configure/:uuid"
     },
     {
       "_id": "octoblu-meshblu-connector-wemo",
@@ -21,7 +21,7 @@
       "tags": ["Home Automation"],
       "githubSlug": "octoblu/meshblu-connector-wemo",
       "createUri": "https://connector-factory.octoblu.com/connectors/create/octoblu/meshblu-connector-wemo",
-      "configureUri": "https://connector-factory.octoblu.com/things/configure/:uuid"
+      "configureUri": "https://connector-factory.octoblu.com/connectors/configure/:uuid"
     },
     {
       "_id": "octoblu-meshblu-connector-blink1",
@@ -31,7 +31,7 @@
       "tags": ["Utility"],
       "githubSlug": "octoblu/meshblu-connector-blink1",
       "createUri": "https://connector-factory.octoblu.com/connectors/create/octoblu/meshblu-connector-blink1",
-      "configureUri": "https://connector-factory.octoblu.com/things/configure/:uuid"
+      "configureUri": "https://connector-factory.octoblu.com/connectors/configure/:uuid"
     },
     {
       "_id": "octoblu-meshblu-connector-hue",
@@ -41,7 +41,7 @@
       "tags": ["Home Automation"],
       "githubSlug": "octoblu/meshblu-connector-hue",
       "createUri": "https://connector-factory.octoblu.com/connectors/create/octoblu/meshblu-connector-hue",
-      "configureUri": "https://connector-factory.octoblu.com/things/configure/:uuid"
+      "configureUri": "https://connector-factory.octoblu.com/connectors/configure/:uuid"
     },
     {
       "_id": "octoblu-meshblu-connector-shell",
@@ -51,7 +51,7 @@
       "tags": ["Utility"],
       "githubSlug": "octoblu/meshblu-connector-shell",
       "createUri": "https://connector-factory.octoblu.com/connectors/create/octoblu/meshblu-connector-shell",
-      "configureUri": "https://connector-factory.octoblu.com/things/configure/:uuid"
+      "configureUri": "https://connector-factory.octoblu.com/connectors/configure/:uuid"
     },
     {
       "_id": "octoblu-meshblu-connector-bean",
@@ -61,7 +61,7 @@
       "tags": ["Bluetooth"],
       "githubSlug": "octoblu/meshblu-connector-bean",
       "createUri": "https://connector-factory.octoblu.com/connectors/create/octoblu/meshblu-connector-bean",
-      "configureUri": "https://connector-factory.octoblu.com/things/configure/:uuid"
+      "configureUri": "https://connector-factory.octoblu.com/connectors/configure/:uuid"
     },
     {
       "_id": "octoblu-meshblu-connector-beacon-receiver",
@@ -71,7 +71,7 @@
       "tags": ["Bluetooth"],
       "githubSlug": "octoblu/meshblu-connector-beacon-receiver",
       "createUri": "https://connector-factory.octoblu.com/connectors/create/octoblu/meshblu-connector-beacon-receiver",
-      "configureUri": "https://connector-factory.octoblu.com/things/configure/:uuid"
+      "configureUri": "https://connector-factory.octoblu.com/connectors/configure/:uuid"
     },
     {
       "_id": "octoblu-meshblu-connector-beacon-transmitter",
@@ -81,7 +81,7 @@
       "tags": [ "Bluetooth" ],
       "githubSlug": "octoblu/meshblu-connector-beacon-transmitter",
       "createUri": "https://connector-factory.octoblu.com/connectors/create/octoblu/meshblu-connector-beacon-transmitter",
-      "configureUri": "https://connector-factory.octoblu.com/things/configure/:uuid"
+      "configureUri": "https://connector-factory.octoblu.com/connectors/configure/:uuid"
     },
     {
       "_id": "octoblu-meshblu-connector-http",
@@ -91,7 +91,7 @@
       "tags": ["Utility"],
       "githubSlug": "octoblu/meshblu-connector-http",
       "createUri": "https://connector-factory.octoblu.com/connectors/create/octoblu/meshblu-connector-http",
-      "configureUri": "https://connector-factory.octoblu.com/things/configure/:uuid"
+      "configureUri": "https://connector-factory.octoblu.com/connectors/configure/:uuid"
     },
     {
       "_id": "octoblu-meshblu-connector-myo",
@@ -101,7 +101,7 @@
       "tags": ["Maker"],
       "githubSlug": "octoblu/meshblu-connector-myo",
       "createUri": "https://connector-factory.octoblu.com/connectors/create/octoblu/meshblu-connector-myo",
-      "configureUri": "https://connector-factory.octoblu.com/things/configure/:uuid"
+      "configureUri": "https://connector-factory.octoblu.com/connectors/configure/:uuid"
     },
     {
       "_id": "octoblu-meshblu-connector-citrix-receiver",
@@ -111,7 +111,7 @@
       "tags": ["Citrix"],
       "githubSlug": "octoblu/meshblu-connector-citrix-receiver",
       "createUri": "https://connector-factory.octoblu.com/connectors/create/octoblu/meshblu-connector-citrix-receiver",
-      "configureUri": "https://connector-factory.octoblu.com/things/configure/:uuid"
+      "configureUri": "https://connector-factory.octoblu.com/connectors/configure/:uuid"
     },
     {
       "_id": "octoblu-meshblu-connector-lifx",
@@ -121,7 +121,7 @@
       "tags": ["Home Automation"],
       "githubSlug": "octoblu/meshblu-connector-lifx",
       "createUri": "https://connector-factory.octoblu.com/connectors/create/octoblu/meshblu-connector-lifx",
-      "configureUri": "https://connector-factory.octoblu.com/things/configure/:uuid"
+      "configureUri": "https://connector-factory.octoblu.com/connectors/configure/:uuid"
     },
     {
       "_id": "octoblu-meshblu-connector-ble-heartrate",
@@ -131,7 +131,7 @@
       "tags": ["Bluetooth"],
       "githubSlug": "octoblu/meshblu-connector-ble-heartrate",
       "createUri": "https://connector-factory.octoblu.com/connectors/create/octoblu/meshblu-connector-ble-heartrate",
-      "configureUri": "https://connector-factory.octoblu.com/things/configure/:uuid"
+      "configureUri": "https://connector-factory.octoblu.com/connectors/configure/:uuid"
     },
     {
       "_id": "octoblu-meshblu-connector-mindwave",
@@ -141,7 +141,7 @@
       "tags": ["Maker"],
       "githubSlug": "octoblu/meshblu-connector-mindwave",
       "createUri": "https://connector-factory.octoblu.com/connectors/create/octoblu/meshblu-connector-mindwave",
-      "configureUri": "https://connector-factory.octoblu.com/things/configure/:uuid"
+      "configureUri": "https://connector-factory.octoblu.com/connectors/configure/:uuid"
     },
     {
       "_id": "octoblu-meshblu-connector-sonos",
@@ -151,7 +151,7 @@
       "tags": ["Music"],
       "githubSlug": "octoblu/meshblu-connector-sonos",
       "createUri": "https://connector-factory.octoblu.com/connectors/create/octoblu/meshblu-connector-sonos",
-      "configureUri": "https://connector-factory.octoblu.com/things/configure/:uuid"
+      "configureUri": "https://connector-factory.octoblu.com/connectors/configure/:uuid"
     },
     {
       "_id": "octoblu-meshblu-connector-hue-button",
@@ -161,7 +161,7 @@
       "tags": ["Home Automation"],
       "githubSlug": "octoblu/meshblu-connector-hue-button",
       "createUri": "https://connector-factory.octoblu.com/connectors/create/octoblu/meshblu-connector-hue-button",
-      "configureUri": "https://connector-factory.octoblu.com/things/configure/:uuid"
+      "configureUri": "https://connector-factory.octoblu.com/connectors/configure/:uuid"
     },
     {
       "_id": "octoblu-meshblu-connector-netscaler",
@@ -171,7 +171,7 @@
       "tags": ["Citrix"],
       "githubSlug": "octoblu/meshblu-connector-netscaler",
       "createUri": "https://connector-factory.octoblu.com/connectors/create/octoblu/meshblu-connector-netscaler",
-      "configureUri": "https://connector-factory.octoblu.com/things/configure/:uuid"
+      "configureUri": "https://connector-factory.octoblu.com/connectors/configure/:uuid"
     },
     {
       "_id": "octoblu-meshblu-connector-xen-director",
@@ -181,7 +181,7 @@
       "tags": ["Citrix"],
       "githubSlug": "octoblu/meshblu-connector-xen-director",
       "createUri": "https://connector-factory.octoblu.com/connectors/create/octoblu/meshblu-connector-xen-director",
-      "configureUri": "https://connector-factory.octoblu.com/things/configure/:uuid"
+      "configureUri": "https://connector-factory.octoblu.com/connectors/configure/:uuid"
     },
     {
       "_id": "octoblu-meshblu-connector-say-hello",
@@ -191,7 +191,7 @@
       "tags": ["Example"],
       "githubSlug": "octoblu/meshblu-connector-say-hello",
       "createUri": "https://connector-factory.octoblu.com/connectors/create/octoblu/meshblu-connector-say-hello",
-      "configureUri": "https://connector-factory.octoblu.com/things/configure/:uuid"
+      "configureUri": "https://connector-factory.octoblu.com/connectors/configure/:uuid"
     }
   ]
 }
