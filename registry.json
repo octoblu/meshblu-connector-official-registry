@@ -35,12 +35,22 @@
     },
     {
       "_id": "octoblu-meshblu-connector-hue",
-      "name": "Phillips Hue",
+      "name": "Phillips Hue (deprecated)",
       "description": "Philips hue combines brilliant LED light with intuitive technology, then puts it in the palm of your hand. Experiment with shades of white, from invigorating blue/white to cozy yellow/white.",
       "type": "device:hue",
       "tags": ["Home Automation"],
       "githubSlug": "octoblu/meshblu-connector-hue",
       "createUri": "https://connector-factory.octoblu.com/connectors/create/octoblu/meshblu-connector-hue",
+      "configureUri": "https://connector-factory.octoblu.com/connectors/configure/:uuid"
+    },
+    {
+      "_id": "octoblu-meshblu-connector-hue-light",
+      "name": "Phillips Hue Light",
+      "description": "Philips hue combines brilliant LED light with intuitive technology, then puts it in the palm of your hand. Experiment with shades of white, from invigorating blue/white to cozy yellow/white.",
+      "type": "device:hue-light",
+      "tags": ["Home Automation"],
+      "githubSlug": "octoblu/meshblu-connector-hue-light",
+      "createUri": "https://connector-factory.octoblu.com/connectors/create/octoblu/meshblu-connector-hue-light",
       "configureUri": "https://connector-factory.octoblu.com/connectors/configure/:uuid"
     },
     {
