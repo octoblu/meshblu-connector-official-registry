@@ -54,6 +54,16 @@
       "configureUri": "https://connector-factory.octoblu.com/connectors/configure/:uuid"
     },
     {
+      "_id": "octoblu-meshblu-connector-hue-group",
+      "name": "Phillips Hue Group",
+      "description": "Philips hue combines brilliant LED light with intuitive technology, then puts it in the palm of your hand. Experiment with shades of white, from invigorating blue/white to cozy yellow/white.",
+      "type": "device:hue-group",
+      "tags": ["Home Automation"],
+      "githubSlug": "octoblu/meshblu-connector-hue-group",
+      "createUri": "https://connector-factory.octoblu.com/connectors/create/octoblu/meshblu-connector-hue-group",
+      "configureUri": "https://connector-factory.octoblu.com/connectors/configure/:uuid"
+    },
+    {
       "_id": "octoblu-meshblu-connector-shell",
       "name": "Shell",
       "description": "A Connector for interfacing with command line. Works with variety of different languages, like bash, fish and powershell.",
