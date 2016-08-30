@@ -15,12 +15,22 @@
     },
     {
       "_id": "octoblu-meshblu-connector-wemo",
-      "name": "Wemo Switch",
+      "name": "Wemo Switch (deprecated)",
       "description": "Home automation made easy. Wemo is a series of Iot products from Belkin International, Inc. that allows users to control your home electronics from anywhere.",
       "type": "device:wemo",
       "tags": ["Home Automation"],
       "githubSlug": "octoblu/meshblu-connector-wemo",
       "createUri": "https://connector-factory.octoblu.com/connectors/create/octoblu/meshblu-connector-wemo",
+      "configureUri": "https://connector-factory.octoblu.com/connectors/configure/:uuid"
+    },
+    {
+      "_id": "octoblu-meshblu-connector-wemo-switch",
+      "name": "Wemo Switch",
+      "description": "Home automation made easy. Wemo is a series of Iot products from Belkin International, Inc. that allows users to control your home electronics from anywhere.",
+      "type": "device:wemo-switch",
+      "tags": ["Home Automation"],
+      "githubSlug": "octoblu/meshblu-connector-wemo-switch",
+      "createUri": "https://connector-factory.octoblu.com/connectors/create/octoblu/meshblu-connector-wemo-switch",
       "configureUri": "https://connector-factory.octoblu.com/connectors/configure/:uuid"
     },
     {
