@@ -222,6 +222,16 @@
       "githubSlug": "octoblu/meshblu-connector-say-hello",
       "createUri": "https://connector-factory.octoblu.com/connectors/create/octoblu/meshblu-connector-say-hello",
       "configureUri": "https://connector-factory.octoblu.com/connectors/configure/:uuid"
+    },
+    {
+      "_id": "octoblu-meshblu-connector-skype",
+      "name": "Skype For Business",
+      "description": "Start and Stop Skype For Business (Lync) Meetings!",
+      "type": "device:skype",
+      "tags": ["Enterprise"],
+      "githubSlug": "octoblu/meshblu-connector-skype",
+      "createUri": "https://connector-factory.octoblu.com/connectors/create/octoblu/meshblu-connector-skype",
+      "configureUri": "https://connector-factory.octoblu.com/connectors/configure/:uuid"
     }
   ]
 }
