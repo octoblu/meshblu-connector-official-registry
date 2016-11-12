@@ -252,6 +252,6 @@
       "githubSlug": "jamesbulpin/meshblu-connector-xenserver",
       "createUri": "https://connector-factory.octoblu.com/connectors/create/jamesbulpin/meshblu-connector-xenserver",
       "configureUri": "https://connector-factory.octoblu.com/connectors/configure/:uuid"
-    },
+    }
   ]
 }
