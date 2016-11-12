@@ -242,6 +242,16 @@
       "githubSlug": "octoblu/meshblu-connector-hue-motion",
       "createUri": "https://connector-factory.octoblu.com/connectors/create/octoblu/meshblu-connector-hue-motion",
       "configureUri": "https://connector-factory.octoblu.com/connectors/configure/:uuid"
-    }
+    },
+    {
+      "_id": "octoblu-meshblu-connector-xenserver",
+      "name": "Citrix XenServer",
+      "description": "Citrix XenServer is a powerful virtualization platform used for server, desktop and applications virtualization as well as cloud infrastructure.",
+      "type": "device:citrix-xenserver",
+      "tags": ["Citrix"],
+      "githubSlug": "jamesbulpin/meshblu-connector-xenserver",
+      "createUri": "https://connector-factory.octoblu.com/connectors/create/jamesbulpin/meshblu-connector-xenserver",
+      "configureUri": "https://connector-factory.octoblu.com/connectors/configure/:uuid"
+    },
   ]
 }
