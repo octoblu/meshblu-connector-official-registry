@@ -4,26 +4,6 @@
   "version": "5.0.0",
   "items": [
     {
-      "_id": "octoblu-meshblu-connector-chromecast",
-      "name": "Chromecast",
-      "description": "Chromecast is a thumb-sized media streaming device that plugs into the HDMI port on your TV. Cast your favorite entertainment and apps right to the big screen.",
-      "type": "device:chromecast",
-      "tags": ["Home Automation"],
-      "githubSlug": "octoblu/meshblu-connector-chromecast",
-      "createUri": "https://connector-factory.octoblu.com/connectors/create/octoblu/meshblu-connector-chromecast",
-      "configureUri": "https://connector-factory.octoblu.com/connectors/configure/:uuid"
-    },
-    {
-      "_id": "octoblu-meshblu-connector-wemo",
-      "name": "Wemo Switch (deprecated)",
-      "description": "Home automation made easy. Wemo is a series of Iot products from Belkin International, Inc. that allows users to control your home electronics from anywhere.",
-      "type": "device:wemo",
-      "tags": ["Home Automation"],
-      "githubSlug": "octoblu/meshblu-connector-wemo",
-      "createUri": "https://connector-factory.octoblu.com/connectors/create/octoblu/meshblu-connector-wemo",
-      "configureUri": "https://connector-factory.octoblu.com/connectors/configure/:uuid"
-    },
-    {
       "_id": "octoblu-meshblu-connector-wemo-switch",
       "name": "Wemo Switch",
       "description": "Home automation made easy. Wemo is a series of Iot products from Belkin International, Inc. that allows users to control your home electronics from anywhere.",
@@ -41,16 +21,6 @@
       "tags": ["Utility"],
       "githubSlug": "octoblu/meshblu-connector-blink1",
       "createUri": "https://connector-factory.octoblu.com/connectors/create/octoblu/meshblu-connector-blink1",
-      "configureUri": "https://connector-factory.octoblu.com/connectors/configure/:uuid"
-    },
-    {
-      "_id": "octoblu-meshblu-connector-hue",
-      "name": "Phillips Hue (deprecated)",
-      "description": "Philips hue combines brilliant LED light with intuitive technology, then puts it in the palm of your hand. Experiment with shades of white, from invigorating blue/white to cozy yellow/white.",
-      "type": "device:hue",
-      "tags": ["Home Automation"],
-      "githubSlug": "octoblu/meshblu-connector-hue",
-      "createUri": "https://connector-factory.octoblu.com/connectors/create/octoblu/meshblu-connector-hue",
       "configureUri": "https://connector-factory.octoblu.com/connectors/configure/:uuid"
     },
     {
@@ -81,6 +51,46 @@
       "tags": ["Utility"],
       "githubSlug": "octoblu/meshblu-connector-shell",
       "createUri": "https://connector-factory.octoblu.com/connectors/create/octoblu/meshblu-connector-shell",
+      "configureUri": "https://connector-factory.octoblu.com/connectors/configure/:uuid"
+    },
+    {
+      "_id": "octoblu-meshblu-connector-ble-heartrate",
+      "name": "BLE Heartrate",
+      "description": "Connector standard BLE Capable heartrate monitors.",
+      "type": "device:ble-heartrate",
+      "tags": ["Bluetooth"],
+      "githubSlug": "octoblu/meshblu-connector-ble-heartrate",
+      "createUri": "https://connector-factory.octoblu.com/connectors/create/octoblu/meshblu-connector-ble-heartrate",
+      "configureUri": "https://connector-factory.octoblu.com/connectors/configure/:uuid"
+    },
+    {
+      "_id": "octoblu-meshblu-connector-hue",
+      "name": "Phillips Hue (deprecated)",
+      "description": "Philips hue combines brilliant LED light with intuitive technology, then puts it in the palm of your hand. Experiment with shades of white, from invigorating blue/white to cozy yellow/white.",
+      "type": "device:hue",
+      "tags": ["Home Automation"],
+      "githubSlug": "octoblu/meshblu-connector-hue",
+      "createUri": "https://connector-factory.octoblu.com/connectors/create/octoblu/meshblu-connector-hue",
+      "configureUri": "https://connector-factory.octoblu.com/connectors/configure/:uuid"
+    },
+    {
+      "_id": "octoblu-meshblu-connector-chromecast",
+      "name": "Chromecast",
+      "description": "Chromecast is a thumb-sized media streaming device that plugs into the HDMI port on your TV. Cast your favorite entertainment and apps right to the big screen.",
+      "type": "device:chromecast",
+      "tags": ["Home Automation"],
+      "githubSlug": "octoblu/meshblu-connector-chromecast",
+      "createUri": "https://connector-factory.octoblu.com/connectors/create/octoblu/meshblu-connector-chromecast",
+      "configureUri": "https://connector-factory.octoblu.com/connectors/configure/:uuid"
+    },
+    {
+      "_id": "octoblu-meshblu-connector-wemo",
+      "name": "Wemo Switch (deprecated)",
+      "description": "Home automation made easy. Wemo is a series of Iot products from Belkin International, Inc. that allows users to control your home electronics from anywhere.",
+      "type": "device:wemo",
+      "tags": ["Home Automation"],
+      "githubSlug": "octoblu/meshblu-connector-wemo",
+      "createUri": "https://connector-factory.octoblu.com/connectors/create/octoblu/meshblu-connector-wemo",
       "configureUri": "https://connector-factory.octoblu.com/connectors/configure/:uuid"
     },
     {
@@ -151,16 +161,6 @@
       "tags": ["Home Automation"],
       "githubSlug": "octoblu/meshblu-connector-lifx",
       "createUri": "https://connector-factory.octoblu.com/connectors/create/octoblu/meshblu-connector-lifx",
-      "configureUri": "https://connector-factory.octoblu.com/connectors/configure/:uuid"
-    },
-    {
-      "_id": "octoblu-meshblu-connector-ble-heartrate",
-      "name": "BLE Heartrate",
-      "description": "Connector standard BLE Capable heartrate monitors.",
-      "type": "device:ble-heartrate",
-      "tags": ["Bluetooth"],
-      "githubSlug": "octoblu/meshblu-connector-ble-heartrate",
-      "createUri": "https://connector-factory.octoblu.com/connectors/create/octoblu/meshblu-connector-ble-heartrate",
       "configureUri": "https://connector-factory.octoblu.com/connectors/configure/:uuid"
     },
     {
