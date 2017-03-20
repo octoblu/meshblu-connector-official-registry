@@ -252,6 +252,16 @@
       "githubSlug": "jamesbulpin/meshblu-connector-xenserver",
       "createUri": "https://connector-factory.octoblu.com/connectors/create/jamesbulpin/meshblu-connector-xenserver",
       "configureUri": "https://connector-factory.octoblu.com/connectors/configure/:uuid"
+    },
+    {
+      "_id": "octoblu-meshblu-connector-powermate",
+      "name": "Griffin Powermate",
+      "description": "A usb button and encoder wheel that you can use to control applications and automation!",
+      "type": "device:powermate",
+      "tags": ["Maker"],
+      "githubSlug": "octoblu/meshblu-connector-powermate",
+      "createUri": "https://connector-factory.octoblu.com/connectors/create/octoblu/meshblu-connector-powermate",
+      "configureUri": "https://connector-factory.octoblu.com/connectors/configure/:uuid"
     }
   ]
 }
