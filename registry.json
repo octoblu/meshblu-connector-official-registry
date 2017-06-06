@@ -4,17 +4,6 @@
   "version": "5.0.0",
   "items": [
     {
-      "_id": "octoblu-meshblu-connector-motion-pi",
-      "name": "Meshblu Connector Motion Pi",
-      "description": "Meshblu Connector Motion Pi",
-      "type": "device:motion-pi",
-      "tags": ["Motion Pi"],
-      "githubSlug": "octoblu/meshblu-connector-motion-pi",
-      "createUri": "https://connector-factory.octoblu.com/connectors/create/someuser/meshblu-connector-motion-pi",
-      "configureUri": "https://connector-factory.octoblu.com/things/configure/:uuid",
-      "iconUri": "https://icons.octoblu.com/devices/generic.svg"
-    },
-    {
       "_id": "octoblu-meshblu-connector-wemo-switch",
       "name": "Wemo Switch",
       "description": "Home automation made easy. Wemo is a series of Iot products from Belkin International, Inc. that allows users to control your home electronics from anywhere.",
